@@ -1,20 +1,11 @@
-import React, { useState } from 'react';
-import Header from "./Header";
+import React from 'react';
+import Login from "./pages/Auth/Login";
 
-function App() {
-  const [counter, setCounter] = useState(0);
+import "./global.css";
 
-  function increment() {
-    setCounter(counter + 1)
-    
-    console.log(counter);    
-  }
-
+function App() {  
   return (
-    <>
-      <Header>Contador - {counter}</Header>
-      <button onClick={increment}>Incrementar</button>
-    </>
+    <Login/>
   );
 }
 
