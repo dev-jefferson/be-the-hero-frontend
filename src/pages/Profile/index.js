@@ -13,7 +13,7 @@ function Profile() {
         <img src={logoImg} alt="Be The Hero"/>
         <span>Bem vindo, GAC</span>
 
-        <Link className="button" to="/incidens/new">
+        <Link className="button" to="/incidents/create">
           Cadastrar novo caso
         </Link>
         <button type="button">
